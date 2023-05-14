@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Castoro+Titling&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,600&family=Roboto:wght@100&family=Rubik&family=Sacramento&display=swap');
+
+body{
+    background: #537188;
+}
+/* body{
+} */
+
+.data div{
+    background: #537188;
+    
+}
+.header{
+    padding:1em 0 ;
+    /* background: white; */
+    border-bottom: 0.13em rgba(rgb(58, 56, 56), rgb(44, 46, 44), rgb(33, 33, 35), 0.9);
+    color: rgb(0, 0, 0);
+}
+.todo{
+    font-family: 'poppins';
+    font-weight: 700;
+}
+.main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #DBDFEA;
+    letter-spacing: 0.1rem;
+    font-size: 3rem;
+    /* text-decoration: underline ; */
+}
+.add{
+    box-shadow: 0px 3px 5px rgba(86, 80, 80,0.3 ) ;
+    background: #DBDFEA;
+    padding-top: 0.6rem;
+}
+.hold{
+    margin: 1rem 1rem;
+    margin-right: 2rem;
+}
+.delete{
+    position: absolute;
+    color: red;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    left: 90%;
+    
+}
+.completed{
+    position: absolute;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    left: 80%;
+    color: green;
+}
+.completing{
+    position: absolute;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    left: 80%;
+    color: green;
+}
+.card{
+    box-shadow: 0 0 10px rgba(94, 91, 91,0.3);
+}
+.show{
+
+    display: flex;
+}
+.hide{
+    transition: 0.9s ease-in-out;
+    display: none;
+}
+#submit:hover{
+    scale:1.1;
+}
+.plus{
+    position: absolute;
+    left: 90%;
+    top: -30%;
+}
+.plus:hover{
+    scale: 1.2;
+}
+.delete:hover{
+    scale: 1.2;
+}
+.completed:hover{
+    scale: 1.2;
+}
+.blur{
+    opacity: 0.1;
+}
+.noblur{
+    opacity: 1.0;
+}
